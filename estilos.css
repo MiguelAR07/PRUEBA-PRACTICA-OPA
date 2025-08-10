@@ -1,0 +1,35 @@
+:root{
+  --primary:#0d6efd;
+  --muted:#6c757d;
+  --bg-grad: linear-gradient(135deg, rgba(13,110,253,0.08), rgba(40,167,69,0.02));
+}
+
+/* Body*/
+body{
+  background: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Card styling */
+.card{
+  border: 0;
+  border-radius: 12px;
+}
+
+/* Accent on headings */
+.card-title{
+  color: #0b5ed7;
+}
+
+/* Buttons */
+#calcBtn{
+  box-shadow: 0 6px 18px rgba(13,110,253,0.12);
+}
+
+/* Small responsive tweaks */
+@media (max-width: 767px){
+  .navbar-brand { font-size: 1rem; }
+  .card-title { font-size: 1.05rem; }
+}
